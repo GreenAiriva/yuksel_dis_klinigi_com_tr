@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Eskişehir Diş Hekimi | Dr. Dt. Yavuz Yüksel - Dr. Dt. Funda Yüksel</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<!-- Ek Styles CSS Navbardaki logo için -->
+<style>
+/* Navbar logosu için özel stil */
+.logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 64px;         /* Dilersen boyutunu ayarla */
+    width: 200px;
+    padding: 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: box-shadow 0.2s;
+}
+.logo img {
+    height: 48px;        /* Logo resminin yüksekliği */
+    width: auto;
+    display: block;
+}
+.logo:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    background: #f4f4f4;
+}
+    .service-item-custom {
+        min-height: 410px;
+        justify-content: flex-start;
+    }
+    .service-img-top {
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+        margin-bottom: 24px;
+        background: #f5f5f5;
+        border: 3px solid #13C5DD;
+    }
+    @media (max-width: 767px) {
+        .service-item-custom { min-height: unset; }
+        .service-img-top { width: 200px; height: 150px; }
+    }
+
+    @media (min-width: 992px) {
+  .navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* üstte minik boşluk bırakmasın diye */
+  }
+}
+    </style>
+
+
+<!-- Ek Styles CSS Navbardaki logo için Son -->
+    
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid py-2 border-bottom d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-decoration-none text-body pe-3" href=""><i class="bi bi-telephone me-2"></i>+90 222 220 98 29</a>
+                        <span class="text-body">|</span>
+                        <a class="text-decoration-none text-body px-3" href=""><i class="bi bi-envelope me-2"></i>info@yukseldisklinigi.com</a>
+                        <span class="text-body">|</span>
+                        <a class="text-decoration-none text-body px-3" href=""><i class="bi bi-envelope me-2"></i>Hoşnudiye Mh. İsmet İnönü 1 Cd. Sakinler Apt. No:31/2 Tepebaşı / Eskişehir</a>
+                        
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-lg-end">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-body px-2" href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="text-body px-2" href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="text-body px-2" href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="text-body px-2" href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="text-body ps-2" href="">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top bg-white shadow-sm">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
+                <a class="logo noTextDecoration d-flex align-items-center justify-content-center" href="index.html">
+                                <img src="img/logo.svg" alt="Yüksel Diş Kliniği Logo" />
+                            </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Anasayfa</a>
+                        <a href="about.html" class="nav-item nav-link">Hakkımızda</a>
+                        <div class="nav-item dropdown">
+                            <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Hekimlerimiz</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="hekimler/hekimler.html" class="dropdown-item fw-bold text-primary">Tüm Hekimlerimiz</a>
+                                <a href="hekimler/yavuz.html" class="dropdown-item">Dr. Dt. Yavuz Yüksel</a>
+                                <a href="hekimler/funda.html" class="dropdown-item">Dr. Dt. Funda Yüksel</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tedaviler</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="service.html" class="dropdown-item fw-bold text-primary">Tüm Tedaviler</a>
+                                <a href="tedaviler/cene/cene-tedaviler.html" class="dropdown-item">Çene Cerrahisi</a>
+                                <a href="tedaviler/detail2.html" class="dropdown-item">Lazer Tedavisi</a>
+                                <a href="tedaviler/detail3.html" class="dropdown-item">Dental Tomografi</a>
+                                <a href="tedaviler/detail4.html" class="dropdown-item">İmplantoloji</a>
+                    <!--        <a href="tedaviler/detail5.html" class="dropdown-item">Dİğer Tedaviler</a> -->
+                            </div>
+                        </div>
+                        <a href="calisma-saatleri.html" class="nav-item nav-link">Çalışma Saatleri</a>
+                        <a href="blog.html" class="nav-item nav-link">Blog</a>
+                        <a href="contact.html" class="nav-item nav-link">İletişim</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Blog Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5" style="max-width: 500px;">
+                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Blog Yazılarımız</h5>
+                <h1 class="display-4">Son Yayınlanan Ağız Sağlığı Makalelerimiz</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-xl-4 col-lg-6">
+                    <div class="bg-light rounded overflow-hidden">
+                        <img class="img-fluid w-100" src="img/blog1.jpg" alt="">
+                        <div class="p-4">
+                            <a class="h3 d-block mb-3" href="blog/blog1.html">Çene Eklemi Hastalıkları</a>
+                            <p class="m-0">Çene eklemi (Temporomandibular Eklem) hastalıkları nelerdir ve  nasıl teşhis edilir? Hastalıkları oluşum sebepleri nelerdir? Hastalıkları nasıl tedavi edilir?...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                    <div class="bg-light rounded overflow-hidden">
+                        <img class="img-fluid w-100" src="img/blog2.jpg" alt="">
+                        <div class="p-4">
+                            <a class="h3 d-block mb-3" href="blog/blog2.html">İplant Uygulamaları Öncesi Dental Tomografi İncelenmesinin Önemi</a>
+                            <p class="m-0">İmplant yapılması planlanan hastalarda ağız içi muayene esnasında veya sonrasında istenen radyolojik inceleme yöntemlerinin seçimi önem arz eder. Günümüzde panoromik...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                    <div class="bg-light rounded overflow-hidden">
+                        <img class="img-fluid w-100" src="img/blog3.jpg" alt="">
+                        <div class="p-4">
+                            <a class="h3 d-block mb-3" href="blog/blog3.html">Sinir Hasarının Düşük Akım Lazer ile Tedavisi</a>
+                            <p class="m-0">Özellikle implant ve 20 yaş dişi çekimi sonucu oluşan mandibular (alt çene) sinir hasarına bağlı dudak ve dil uyuşukluklarının tedavisinde düşük akım lazer tedavileri uyuşukluk ve ağrının giderilmesinde başarılıdır. Hasarın tipine...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                    <div class="bg-light rounded overflow-hidden">
+                        <img class="img-fluid w-100" src="img/blog4.jpg" alt="">
+                        <div class="p-4">
+                            <a class="h3 d-block mb-3" href="blog/blog4.html">Çene Eklemi Kaynaklı Kulak Ağrısı ve Kulak Çınlaması</a>
+                            <p class="m-0">Temporomandibular eklem (çene eklemi) rahatsızlıklarında çene hareketlerinde artan ağrı ve ses, kulak ön bölgesinde bulunan eklem sahasının yanı sıra özellikle ağrı;  kulak, boyun ve şakak gibi komşu alanlarda da hissedilebilir.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                    <div class="bg-light rounded overflow-hidden">
+                        <img class="img-fluid w-100" src="img/blog5.jpg" alt="">
+                        <div class="p-4">
+                            <a class="h3 d-block mb-3" href="blog/blog5.html">Çene Darlığı Tedavisi</a>
+                            <p class="m-0">Çene darlıkları çenelerde tek tek olabildiği gibi her iki çenede de görülebilir. İskeletsel  gelişim  olarak geride kalması sebep olabileceği gibi iri dişlerin çene arkında yer bulamaması sonucuda oluşabilir. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                    <div class="bg-light rounded overflow-hidden">
+                        <img class="img-fluid w-100" src="img/blog6.jpg" alt="">
+                        <div class="p-4">
+                            <a class="h3 d-block mb-3" href="blog/blog6.html">Botoks ile Diş Gıcırdatma Tedavisi</a>
+                            <p class="m-0">Halk arasında gece diş gıcırdatma ve sıkma olarak olarak bilinen rahatsızlıklarda özellikle sabahları şakak ve çene bölgelerinde ağrı ve yorgunluk hissi oluşur.  Botulinum toxin yani halk diliyle botoks...</p>
+                        </div>
+                    </div>
+                </div>
+           <!--     <div class="col-xl-4 col-lg-6">
+                    <div class="bg-light rounded overflow-hidden">
+                        <img class="img-fluid w-100" src="img/blog1.jpg" alt="">
+                        <div class="p-4">
+                            <a class="h3 d-block mb-3" href="blog/blog1.html">Çene Eklemi Hastalıkları</a>
+                            <p class="m-0">Çene eklemi (Temporomandibular Eklem) hastalıkları nelerdir ve  nasıl teşhis edilir? Hastalıkları oluşum sebepleri nelerdir? Hastalıkları nasıl tedavi edilir?...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                    <div class="bg-light rounded overflow-hidden">
+                        <img class="img-fluid w-100" src="img/blog2.jpg" alt="">
+                        <div class="p-4">
+                            <a class="h3 d-block mb-3" href="blog/blog2.html">İplant Uygulamaları Öncesi Dental Tomografi İncelenmesinin Önemi</a>
+                            <p class="m-0">İmplant yapılması planlanan hastalarda ağız içi muayene esnasında veya sonrasında istenen radyolojik inceleme yöntemlerinin seçimi önem arz eder. Günümüzde panoromik...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                    <div class="bg-light rounded overflow-hidden">
+                        <img class="img-fluid w-100" src="img/blog3.jpg" alt="">
+                        <div class="p-4">
+                            <a class="h3 d-block mb-3" href="blog/blog3.html">Sinir Hasarının Düşük Akım Lazer ile Tedavisi</a>
+                            <p class="m-0">Özellikle implant ve 20 yaş dişi çekimi sonucu oluşan mandibular (alt çene) sinir hasarına bağlı dudak ve dil uyuşukluklarının tedavisinde düşük akım lazer tedavileri uyuşukluk ve ağrının giderilmesinde başarılıdır. Hasarın tipine...</p>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="col-12 text-center">
+                    <button class="btn btn-primary py-3 px-5">Load More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog End -->
+    
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light mt-5 py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Bizimle İletişime Geçin</h4>
+                    <p class="mb-4"></p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>Hoşnudiye Mh. İsmet İnönü 1 Cd. Sakinler Apt. No:31/2 Tepebaşı / Eskişehir</p>
+                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>info@yukseldisklinigi.com</p>
+                    <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3"></i>+90 222 220 98 29</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Hızlı Aramalar</h4>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-light mb-2" href="index.html"><i class="fa fa-angle-right me-2"></i>Anasayfa</a>
+                        <a class="text-light mb-2" href="about.html"><i class="fa fa-angle-right me-2"></i>Hakkımızda</a>
+                        <a class="text-light mb-2" href="service.html"><i class="fa fa-angle-right me-2"></i>Tedaviler</a>
+                        <a class="text-light mb-2" href="hekimler/hekimler.html"><i class="fa fa-angle-right me-2"></i>Hekimlerimizi Tanıyın</a>
+                        <a class="text-light mb-2" href="blog.html"><i class="fa fa-angle-right me-2"></i>En son Blog Yazıları</a>
+                        <a class="text-light" href="contact.html"><i class="fa fa-angle-right me-2"></i>İletişim</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Popüler Linkler</h4>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-light mb-2" href="index.html"><i class="fa fa-angle-right me-2"></i>Anasayfa</a>
+                        <a class="text-light mb-2" href="about.html"><i class="fa fa-angle-right me-2"></i>Hakkımızda</a>
+                        <a class="text-light mb-2" href="service.html"><i class="fa fa-angle-right me-2"></i>Tedaviler</a>
+                        <a class="text-light mb-2" href="hekimler/hekimler.html"><i class="fa fa-angle-right me-2"></i>Hekimlerimizi Tanıyın</a>
+                        <a class="text-light mb-2" href="blog.html"><i class="fa fa-angle-right me-2"></i>En son Blog Yazıları</a>
+                        <a class="text-light" href="contact.html"><i class="fa fa-angle-right me-2"></i>İletişim</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="text-primary text-uppercase mt-4 mb-3">Bizi Takip Edin</h6>
+                    <div class="d-flex">
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-light border-top border-secondary py-4">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-md-0">&copy; <a class="text-primary" href="index.html">Yüksel Diş Kliniği</a>. Tüm Hakları saklıdır.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Designed by <a class="text-primary" href="https://htmlcodex.com">HTML Codex</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+  
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+
